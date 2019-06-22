@@ -9,6 +9,11 @@ mkdir ~/copyout/
 cd ~/copyout/
 Copy the following text to a file called all-darknet-download.sh in that directory
 
+___ begin file ----
+
+
+
+#!/bin/bash
 wget http://pjreddie.com/media/files/yolo.weights 
 
 wget http://pjreddie.com/media/files/yolo9000.weights
@@ -26,6 +31,9 @@ wget https://ocw.mit.edu/ans7870/6/6.006/s08/lecturenotes/files/t8.shakespeare.t
 
 wget pjreddie.com/media/files/go.weights 
 
+
+
+---- end file ---
 
 execute chmod u+x all-darknet-download.sh
 
