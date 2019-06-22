@@ -1,6 +1,10 @@
 # docker-cuda10.1-opencv-3.4.6-darknet
 InstallScript and Dockerfile for building Cuda10.1 OpenCV-3.4.6 and Darknet also a second one that just installs CudaLess-OpenCV-3.4.6 and Darknet
 
+
+NOTE This builds a very large ***MONOLITHIC CONTAINER*** see explanation further on in this readme
+
+
 Install Ubuntu 18.04 base no need to install full system (just basic desktop) on your host (not in a virtual machine)
 
 
