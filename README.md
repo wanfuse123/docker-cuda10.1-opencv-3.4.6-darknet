@@ -75,7 +75,7 @@ NEXT:
 create a folder
 
 mkdir ~/docker-opencv-cuda
-mkdir ~/docker-opncv-nocuda
+mkdir ~/docker-opencv-nocuda
 
 in the docker-opencv-cuda directory perform a git clone of this repository
 
